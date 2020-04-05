@@ -1,4 +1,4 @@
-# swagger_client.DeviceTypesApi
+# metacore_api_python_cli.DeviceTypesApi
 
 All URIs are relative to *https://api.teke.li/api/v1/obs/*
 
@@ -20,18 +20,18 @@ Deletes a device-types document
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import metacore_api_python_cli
+from metacore_api_python_cli.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = metacore_api_python_cli.Configuration()
 configuration.api_key['X-Api-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['X-Api-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DeviceTypesApi(swagger_client.ApiClient(configuration))
+api_instance = metacore_api_python_cli.DeviceTypesApi(metacore_api_python_cli.ApiClient(configuration))
 device_types_id = 'device_types_id_example' # str | 
 if_match = 'if_match_example' # str | Current value of the _etag field
 
@@ -73,18 +73,18 @@ Retrieves one or more device_types
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import metacore_api_python_cli
+from metacore_api_python_cli.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = metacore_api_python_cli.Configuration()
 configuration.api_key['X-Api-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['X-Api-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DeviceTypesApi(swagger_client.ApiClient(configuration))
+api_instance = metacore_api_python_cli.DeviceTypesApi(metacore_api_python_cli.ApiClient(configuration))
 where = 'where_example' # str | the filters query parameter (ex.: {\"number\": 10}) (optional)
 sort = 'sort_example' # str | the sort query parameter (ex.: \"city,-lastname\") (optional)
 page = 56 # int | the pages query parameter (optional)
@@ -131,18 +131,18 @@ Retrieves a device-types document
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import metacore_api_python_cli
+from metacore_api_python_cli.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = metacore_api_python_cli.Configuration()
 configuration.api_key['X-Api-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['X-Api-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DeviceTypesApi(swagger_client.ApiClient(configuration))
+api_instance = metacore_api_python_cli.DeviceTypesApi(metacore_api_python_cli.ApiClient(configuration))
 device_types_id = 'device_types_id_example' # str | 
 
 try:
@@ -183,19 +183,19 @@ Updates a device-types document
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import metacore_api_python_cli
+from metacore_api_python_cli.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = metacore_api_python_cli.Configuration()
 configuration.api_key['X-Api-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['X-Api-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DeviceTypesApi(swagger_client.ApiClient(configuration))
-body = swagger_client.DeviceTypes() # DeviceTypes | A device-types or list of device-types documents
+api_instance = metacore_api_python_cli.DeviceTypesApi(metacore_api_python_cli.ApiClient(configuration))
+body = metacore_api_python_cli.DeviceTypes() # DeviceTypes | A device-types or list of device-types documents
 if_match = 'if_match_example' # str | Current value of the _etag field
 device_types_id = 'device_types_id_example' # str | 
 
@@ -238,19 +238,19 @@ Stores one or more device_types.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import metacore_api_python_cli
+from metacore_api_python_cli.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = metacore_api_python_cli.Configuration()
 configuration.api_key['X-Api-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['X-Api-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DeviceTypesApi(swagger_client.ApiClient(configuration))
-body = swagger_client.DeviceTypes() # DeviceTypes | A device-types or list of device-types documents
+api_instance = metacore_api_python_cli.DeviceTypesApi(metacore_api_python_cli.ApiClient(configuration))
+body = metacore_api_python_cli.DeviceTypes() # DeviceTypes | A device-types or list of device-types documents
 
 try:
     # Stores one or more device_types.
@@ -289,19 +289,19 @@ Replaces a device-types document
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import metacore_api_python_cli
+from metacore_api_python_cli.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = metacore_api_python_cli.Configuration()
 configuration.api_key['X-Api-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['X-Api-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.DeviceTypesApi(swagger_client.ApiClient(configuration))
-body = swagger_client.DeviceTypes() # DeviceTypes | A device-types or list of device-types documents
+api_instance = metacore_api_python_cli.DeviceTypesApi(metacore_api_python_cli.ApiClient(configuration))
+body = metacore_api_python_cli.DeviceTypes() # DeviceTypes | A device-types or list of device-types documents
 if_match = 'if_match_example' # str | Current value of the _etag field
 device_types_id = 'device_types_id_example' # str | 
 

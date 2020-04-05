@@ -1,4 +1,4 @@
-# swagger_client.SignupApi
+# metacore_api_python_cli.SignupApi
 
 All URIs are relative to *https://api.teke.li/api/v1/obs/*
 
@@ -19,18 +19,18 @@ Deletes a signup document
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import metacore_api_python_cli
+from metacore_api_python_cli.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = metacore_api_python_cli.Configuration()
 configuration.api_key['X-Api-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['X-Api-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SignupApi(swagger_client.ApiClient(configuration))
+api_instance = metacore_api_python_cli.SignupApi(metacore_api_python_cli.ApiClient(configuration))
 signup_id = 'signup_id_example' # str | 
 if_match = 'if_match_example' # str | Current value of the _etag field
 
@@ -72,18 +72,18 @@ Retrieves a signup document
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import metacore_api_python_cli
+from metacore_api_python_cli.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = metacore_api_python_cli.Configuration()
 configuration.api_key['X-Api-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['X-Api-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SignupApi(swagger_client.ApiClient(configuration))
+api_instance = metacore_api_python_cli.SignupApi(metacore_api_python_cli.ApiClient(configuration))
 signup_id = 'signup_id_example' # str | 
 
 try:
@@ -124,19 +124,19 @@ Updates a signup document
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import metacore_api_python_cli
+from metacore_api_python_cli.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = metacore_api_python_cli.Configuration()
 configuration.api_key['X-Api-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['X-Api-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SignupApi(swagger_client.ApiClient(configuration))
-body = swagger_client.Signup() # Signup | A signup document.
+api_instance = metacore_api_python_cli.SignupApi(metacore_api_python_cli.ApiClient(configuration))
+body = metacore_api_python_cli.Signup() # Signup | A signup document.
 if_match = 'if_match_example' # str | Current value of the _etag field
 signup_id = 'signup_id_example' # str | 
 
@@ -179,19 +179,19 @@ Stores one signup.
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import metacore_api_python_cli
+from metacore_api_python_cli.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = metacore_api_python_cli.Configuration()
 configuration.api_key['X-Api-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['X-Api-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SignupApi(swagger_client.ApiClient(configuration))
-body = swagger_client.Signup() # Signup | A signup document.
+api_instance = metacore_api_python_cli.SignupApi(metacore_api_python_cli.ApiClient(configuration))
+body = metacore_api_python_cli.Signup() # Signup | A signup document.
 
 try:
     # Stores one signup.
@@ -230,19 +230,19 @@ Replaces a signup document
 ```python
 from __future__ import print_function
 import time
-import swagger_client
-from swagger_client.rest import ApiException
+import metacore_api_python_cli
+from metacore_api_python_cli.rest import ApiException
 from pprint import pprint
 
 # Configure API key authorization: api_key
-configuration = swagger_client.Configuration()
+configuration = metacore_api_python_cli.Configuration()
 configuration.api_key['X-Api-Key'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['X-Api-Key'] = 'Bearer'
 
 # create an instance of the API class
-api_instance = swagger_client.SignupApi(swagger_client.ApiClient(configuration))
-body = swagger_client.Signup() # Signup | A signup document.
+api_instance = metacore_api_python_cli.SignupApi(metacore_api_python_cli.ApiClient(configuration))
+body = metacore_api_python_cli.Signup() # Signup | A signup document.
 if_match = 'if_match_example' # str | Current value of the _etag field
 signup_id = 'signup_id_example' # str | 
 

@@ -1,0 +1,20 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from metacore_api_python_cli.api.oplog_api import OplogApi
+from metacore_api_python_cli.api.device_types_api import DeviceTypesApi
+from metacore_api_python_cli.api.devices_api import DevicesApi
+from metacore_api_python_cli.api.hardwares_api import HardwaresApi
+from metacore_api_python_cli.api.loraserver_core_api import LoraserverCoreApi
+from metacore_api_python_cli.api.measurables_api import MeasurablesApi
+from metacore_api_python_cli.api.organization_details_api import OrganizationDetailsApi
+from metacore_api_python_cli.api.organizations_api import OrganizationsApi
+from metacore_api_python_cli.api.preferences_api import PreferencesApi
+from metacore_api_python_cli.api.regions_api import RegionsApi
+from metacore_api_python_cli.api.roles_api import RolesApi
+from metacore_api_python_cli.api.sensors_api import SensorsApi
+from metacore_api_python_cli.api.signup_api import SignupApi
+from metacore_api_python_cli.api.tenants_api import TenantsApi
+from metacore_api_python_cli.api.users_api import UsersApi
